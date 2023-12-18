@@ -34,16 +34,16 @@ $ cd project
 $ npm install
 ```
 
-## Start development
-
-```
-$ npm run dev
-```
-
-## Run build for production
+## Run build frontend
 
 ```
 $ npm start
+```
+
+## Run build backend
+
+```
+$ npm run dev
 ```
 
 ## Run socket.IO
