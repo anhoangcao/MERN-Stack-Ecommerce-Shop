@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({
-    path: "config/.env",
+    path: "backend/config/.env",
   });
 }
 
