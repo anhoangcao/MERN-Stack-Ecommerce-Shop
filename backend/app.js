@@ -15,9 +15,8 @@ app.use(
 );
 app.use("/", express.static("uploads"));
 app.use("/", (req, res) => {
-  res.send("Hello world!");
+  res.send("Hello");
 });
-
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 if (process.env.NODE_ENV !== "PRODUCTION") {
