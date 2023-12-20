@@ -14,7 +14,7 @@ app.use(
   })
 );
 app.use("/", express.static("uploads"));
-app.use("/", (req, res) => {
+app.use("backend/", (req, res) => {
   res.send("Hello");
 });
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
