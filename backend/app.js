@@ -14,6 +14,8 @@ app.use(
     credentials: true,
   })
 );
+
+
 app.use("/", express.static("uploads"));
 app.use("/", (req, res) => {
   res.send("Hello");
