@@ -17,7 +17,6 @@ An ecommerce store built with MERN stack, and utilizes third party API's. This e
   * Redux Thunk middleware to handle asynchronous redux actions
 
 
-
 ## Demo
 
 This application is deployed on Vercel Please check it out :smile: [here](hhttps://mern-stack-ecommerce-shop-lh5k.vercel.app/).
@@ -30,8 +29,9 @@ Some basic Git commands are:
 
 ```
 $ git clone https://github.com/anhoangcao/MERN-stack-ecommerce-shop.git
-$ cd project
 $ npm install
+$ cd frontend
+$ cd backend
 ```
 
 ## Run build frontend
@@ -61,6 +61,8 @@ $ npm start
 - [Mongoose](https://mongoosejs.com/)
 
 - [React](https://reactjs.org/)
+
+- [Socket](https://socket.io/)
 
 - [Webpack](https://webpack.js.org/)
 
