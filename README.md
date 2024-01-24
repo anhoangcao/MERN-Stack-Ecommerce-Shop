@@ -62,9 +62,9 @@ $ npm start
 
 - [React](https://reactjs.org/)
 
-- [Socket](https://socket.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-- [Webpack](https://webpack.js.org/)
+- [Socket](https://socket.io/)
 
 
 ### Code Formatter
